@@ -1,0 +1,21 @@
+{
+  "name": "babel-react-errorboundary-plugin",
+  "version": "1.0.0",
+  "description": "react errorboundary",
+  "main": "index.js",
+  "author": "licb",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/template": "^7.18.10",
+    "@babel/types": "^7.20.5"
+  },
+  "scripts": {
+    "example": "babel ./test/A.tsx --out-file ./test/complied.tsx "
+  },
+  "dependencies": {
+    "@babel/helper-module-imports": "^7.18.6",
+    "@babel/helper-plugin-utils": "^7.20.2"
+  }
+}
